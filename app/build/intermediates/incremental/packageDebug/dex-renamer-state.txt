@@ -1,0 +1,7 @@
+#Sat Sep 24 13:22:50 CDT 2016
+base.0=D\:\\AndroidProjects\\CelestialSphere\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_32d57f0723500a575f398b7d80812b74cfb0cd4c
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=D\:\\AndroidProjects\\CelestialSphere\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_1efb088bf9c6b27fb7fc340ee93acd67b75dde5a\\classes.dex
+base.1=D\:\\AndroidProjects\\CelestialSphere\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_1efb088bf9c6b27fb7fc340ee93acd67b75dde5a
+file.0=D\:\\AndroidProjects\\CelestialSphere\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_32d57f0723500a575f398b7d80812b74cfb0cd4c\\classes.dex

@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "D:\\AndroidProjects\\CelestialSphere\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\silverbuttonbig.png",
+        "source": "D:\\AndroidProjects\\CelestialSphere\\app\\src\\main\\res\\drawable-nodpi\\silverbuttonbig.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\CelestialSphere\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\earth_night.png",
+        "source": "D:\\AndroidProjects\\CelestialSphere\\app\\src\\main\\res\\drawable-nodpi\\earth_night.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\CelestialSphere\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\silverbutton.png",
+        "source": "D:\\AndroidProjects\\CelestialSphere\\app\\src\\main\\res\\drawable-nodpi\\silverbutton.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\CelestialSphere\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\moon.png",
+        "source": "D:\\AndroidProjects\\CelestialSphere\\app\\src\\main\\res\\drawable-nodpi\\moon.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\CelestialSphere\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\earth_light.png",
+        "source": "D:\\AndroidProjects\\CelestialSphere\\app\\src\\main\\res\\drawable-nodpi\\earth_light.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\CelestialSphere\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\clouds.png",
+        "source": "D:\\AndroidProjects\\CelestialSphere\\app\\src\\main\\res\\drawable-nodpi\\clouds.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\CelestialSphere\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\greenbuttonbig.png",
+        "source": "D:\\AndroidProjects\\CelestialSphere\\app\\src\\main\\res\\drawable-nodpi\\greenbuttonbig.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\CelestialSphere\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\bluebuttonbig.png",
+        "source": "D:\\AndroidProjects\\CelestialSphere\\app\\src\\main\\res\\drawable-nodpi\\bluebuttonbig.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\CelestialSphere\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\redbuttonbig.png",
+        "source": "D:\\AndroidProjects\\CelestialSphere\\app\\src\\main\\res\\drawable-nodpi\\redbuttonbig.png"
+    }
+]
