@@ -4,5 +4,6 @@
     <string name="app_name">Celestial Sphere</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="bt_sphere">Sphere</string>
 
 </resources>

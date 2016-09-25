@@ -17,7 +17,6 @@ public class LessonRenderer implements Renderer {
 	private Earth           mEarth;
 	private PointLight      mPointLight;
 	private CelestialSphere mCelestialSphere;
-	private ReferenceLines  mRefLines;
 	private StarField       mStarField;
 	private Moon            mMoon;
 
@@ -30,6 +29,7 @@ public class LessonRenderer implements Renderer {
 	private CameraObject   mCamera3;
 	private CameraObject   mCamera4;
 	private CameraObject   mCamera5;
+    private CameraObject   mCamera6;
     
     private final Context mContext;
     
@@ -71,9 +71,6 @@ public class LessonRenderer implements Renderer {
         mCelestialSphere = new CelestialSphere(mContext, mManager);
         mManager.addModelObject(mCelestialSphere);
         
-        mRefLines = new ReferenceLines(mContext, mManager);
-        mManager.addModelObject(mRefLines);
-        
         mStarField = new StarField(mContext, mManager);
         mManager.addModelObject(mStarField);
         
@@ -87,6 +84,7 @@ public class LessonRenderer implements Renderer {
     	initCamera3();
     	initCamera4();
     	initCamera5();
+        initCamera6();
     	mManager.setActiveCamera(mCamera1);
     }
     
@@ -138,7 +136,17 @@ public class LessonRenderer implements Renderer {
         mCamera5.setProjectionMatrix(60f, mWidth, mHeight, 1f, 11000f);
         mManager.addCameraObject(mCamera5);
     }
-    
+
+    public void initCamera6() {
+        float[] eyePos = {0f, 0f, -1f};
+        float[] tgtPos = {0f, 0f, 0f};
+        float[] upVec  = {0f, 1f, 0f};
+        mCamera6 = new CameraObject("Cam6", eyePos, tgtPos, upVec);
+
+        mCamera6.setProjectionMatrix(30f, mWidth, mHeight, 1f, 11000f);
+        mManager.addCameraObject(mCamera6);
+    }
+
     public void initShaders() {
         mEarthDaysideShader = new EarthDaysideShaderProgram(mContext);
         mEarthNightsideShader = new EarthNightsideShaderProgram(mContext);
@@ -151,8 +159,6 @@ public class LessonRenderer implements Renderer {
         
         mManager.setPrimaryShader(mCelestialSphere,  mDefaultShader);
         
-        mManager.setPrimaryShader(mRefLines,  mDefaultShader);
-
         mManager.setPrimaryShader(mStarField,  mDefaultShader);
         
         mManager.setPrimaryShader(mMoon, mEarthDaysideShader);
@@ -262,7 +268,6 @@ public class LessonRenderer implements Renderer {
 	
     public boolean toggleRefs() {
     	mSphereRefsVisible = (mSphereRefsVisible ? false : true);
-        mRefLines.setVisibleFlag(mGridRefsVisible);
     	return mSphereRefsVisible;
     }
 

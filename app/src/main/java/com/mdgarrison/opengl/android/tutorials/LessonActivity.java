@@ -57,7 +57,7 @@ public class LessonActivity extends Activity {
 		mView = (LessonView) findViewById(R.id.tmainView);
 		
 		b_Sphere = (Button) findViewById(R.id.button1);
-		b_Sphere.setText("Sphere");
+		b_Sphere.setText(R.string.bt_sphere);
 		b_Sphere.setBackground(getResources().getDrawable(com.mdgarrison.opengl.android.R.drawable.silverbuttonbig));
 		b_Sphere.setTextColor(mView.getToggleSphereVisible() == true ? Color.GREEN : Color.BLACK);
 
@@ -82,7 +82,7 @@ public class LessonActivity extends Activity {
 		b_Reset.setTextColor(Color.GREEN);
 		
 		b_Pov = (Button) findViewById(R.id.button6);
-		b_Pov.setText("Pov");
+		b_Pov.setText("Cam1");
 		b_Pov.setBackground(getResources().getDrawable(com.mdgarrison.opengl.android.R.drawable.silverbuttonbig));
 		b_Pov.setTextColor(Color.GREEN);
 

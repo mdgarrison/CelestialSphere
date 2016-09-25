@@ -12,7 +12,7 @@ public class StarField extends ModelObject {
 	private int mTotalStars;
     public int mMagCount[] = new int[5];
 
-	public class starData                                                                                                                    //1
+	public class starData
 	{
 	    float x;
 	    float y;
